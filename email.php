@@ -17,17 +17,17 @@ $mail->isSMTP();                            // Set mailer to use SMTP
 $mail->Mailer = "smtp";
 $mail->Host = 'smtp.gmail.com';           // Specify main and backup SMTP servers 
 $mail->SMTPAuth = true;                     // Enable SMTP authentication 
-$mail->Username = 'Hasantayar1602@gmail.com';       // SMTP username 
-$mail->Password = 'kncgfbomqjzcyfte';         // SMTP password 
+$mail->Username = 'EXAMPLE@gmail.com';       // SMTP username 
+$mail->Password = 'PASSWORD_FOR_SMTP';         // SMTP password 
 $mail->SMTPSecure = 'tls';                  // Enable TLS encryption, `ssl` also accepted 
 $mail->Port = 587;                          // TCP port to connect to 
  
 // Sender info 
-$mail->setFrom('Hasantayar1602@gmail.com', 'hasan'); 
+$mail->setFrom('YOUR_EMAIL', 'YOUR NAME OR YOUR PROJECT NAME'); 
 //$mail->addReplyTo('reply@example.com', 'SenderName'); 
  
 // Add a recipient 
-$mail->addAddress('Hasantayar1602@gmail.com'); 
+$mail->addAddress('EXAMPLE@gmail.com'); 
  
 //$mail->addCC('cc@example.com'); 
 //$mail->addBCC('bcc@example.com'); 
